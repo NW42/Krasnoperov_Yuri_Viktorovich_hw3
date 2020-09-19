@@ -28,9 +28,7 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  Memo1.Lines.Clear;
-  Memo1.Lines.Add('My new rating');  
-  Memo1.Lines.Add('Comment was added');    
+  Memo1.Lines.Clear;   
 end;
 
 end.
