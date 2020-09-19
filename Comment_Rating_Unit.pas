@@ -28,7 +28,8 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  Memo1.Lines.Clear;   
+  Memo1.Lines.Clear; 
+  Memo1.Lines.Add('My new rating BRANCH IN ONE FILE');    
 end;
 
 end.
